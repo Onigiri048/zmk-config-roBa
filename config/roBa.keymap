@@ -64,32 +64,39 @@
         };
     };
 
-// #includeのあとのあたりにスクロール量を変更
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+    // #includeのあとのあたりにスクロール量を変更
 
-//  behaviors に追加
-// 新しいスクロール動作の追加
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            // 追加: スクロールのタップ時間を設定 (20ms)
-            tap-ms = <20>;
-        };
+    #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
-// 設定したいレイヤー
-sensor-bindings = <&scroll_up_down>;
+    //  behaviors に追加
+    // 新しいスクロール動作の追加
 
+    scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+        // 追加: スクロールのタップ時間を設定 (20ms)
+
+        tap-ms = <20>;
+    };
+
+    // 設定したいレイヤー
+
+    sensor-bindings = <&scroll_up_down>;
+
+    behaviors {
+    };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp F         &kp P       &kp G                                        &kp J      &kp L  &kp U      &kp Y    &kp COLON
-&kp A      &kp R         &kp S         &kp T       &kp D    &mkp LCLK           &kp MINUS       &kp H      &kp N  &kp E      &kp I    &kp O
-&kp Z      &kp X         &kp C         &kp V       &kp B    &kp LANGUAGE_2      &kp LANGUAGE_1  &kp K      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp ESCAPE  &kp TAB  &kp SPACE           &kp BACKSPACE   &kp ENTER                             &kt RIGHT_SHIFT
+&kp Q      &kp W         &kp F         &kp P         &kp G                                        &kp J      &kp L  &kp U      &kp Y    &kp COLON
+&kp A      &kp R         &kp S         &kp T         &kp D    &mkp LCLK           &kp MINUS       &kp H      &kp N  &kp E      &kp I    &kp O
+&kp Z      &kp X         &kp C         &kp V         &kp B    &kp LANGUAGE_2      &kp LANGUAGE_1  &kp K      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 ESCAPE  &kp TAB  &kp SPACE           &kp BACKSPACE   &kp ENTER                             &kt RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
