@@ -108,10 +108,10 @@
 
         TYPING {
             bindings = <
-&kp Q             &kp W      &kp F             &kp P         &kp G                                          &kp J        &kp L  &kp U      &kp Y    &kp QUESTION
-&kp A             &kp R      &kp S             &kp T         &kp D  &mkp LCLK             &kp MINUS         &kp H        &kp N  &kp E      &kp I    &kp O
-&kp Z             &kp X      &kp C             &kp V         &kp B  &lt 7 LANGUAGE_2      &lt 0 LANGUAGE_1  &kp K        &kp M  &kp COMMA  &kp DOT  &kp SQT
-&kp LEFT_CONTROL  &kp LSHFT  &kp LEFT_COMMAND  &lt 1 ESCAPE  &mo 7  &lt 3 SPACE           &lt 6 BACKSPACE   &lt 5 ENTER                             &kp RIGHT_ALT
+&kp Q             &kp W      &kp F             &kp P         &kp G                                              &kp J        &kp L  &kp U      &kp Y    &kp QUESTION
+&kp A             &kp R      &kp S             &kp T         &kp D         &mkp LCLK           &kp MINUS        &kp H        &kp N  &kp E      &kp I    &kp O
+&kp Z             &kp X      &kp C             &kp V         &kp B         &kp LANGUAGE_2      &kp LANGUAGE_1   &kp K        &kp M  &kp COMMA  &kp DOT  &kp SQT
+&kp LEFT_CONTROL  &kp LSHFT  &kp LEFT_COMMAND  &lt 1 ESCAPE  &lt 7 ESCAPE  &lt 3 SPACE         &lt 6 BACKSPACE  &lt 5 ENTER                             &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -126,7 +126,7 @@
             >;
         };
 
-        FUNCTION_NUM {
+        NEVER_USE {
             bindings = <
 &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                            &kp PLUS        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL
 &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans      &kp ASTERISK  &kp MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
@@ -173,12 +173,12 @@
             >;
         };
 
-        layer_7 {
+        FUNCTION_NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                     &trans
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15                            &kp PLUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL
+&kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans      &kp ASTERISK  &kp MINUS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans      &kp SLASH     &kp UNDERSCORE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
+&trans   &trans   &trans   &trans   &trans   &trans      &trans        &trans                                                             &trans
             >;
         };
     };
