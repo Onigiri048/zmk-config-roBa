@@ -110,7 +110,7 @@
             bindings = <
 &kp Q     &kp W    &kp F      &kp P         &kp G                                           &kp J        &kp L  &kp U              &kp Y              &kp QUESTION
 &kp A     &kp R    &kp S      &kp T         &kp D      &mkp LCLK           &kp MINUS        &kp H        &kp N  &kp E              &kp I              &kp O
-&kp Z     &kp X    &kp C      &kp V         &kp B      &kp LANGUAGE_2      &kp LANGUAGE_1   &kp K        &kp M  &kp RIGHT_COMMAND  &kp RIGHT_CONTROL  &kp RIGHT_ALT
+&kp Z     &kp X    &kp C      &kp V         &kp B      &kp LANGUAGE_2      &kp LANGUAGE_1   &kp K        &kp M  &kp RIGHT_COMMAND  &kp RIGHT_CONTROL  &kp LEFT_ALT
 &kp APOS  &kp DOT  &kp COMMA  &lt 1 ESCAPE  &lt 7 TAB  &lt 3 SPACE         &lt 6 BACKSPACE  &lt 5 ENTER                                               &kp RSHFT
             >;
 
