@@ -29,29 +29,14 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        BT0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <15 16>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        BT1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <27 28>;
         };
     };
 
@@ -108,10 +93,10 @@
 
         TYPING {
             bindings = <
-&kp Q       &kp W        &kp F       &kp P      &kp G                                                  &kp J        &kp L  &kp U                    &kp Y                  &kp QUESTION
-&kp A       &kp R        &kp S       &kp T      &kp D             &mkp LCLK           &kp MINUS        &kp H        &kp N  &kp E                    &kp I                  &kp O
-&kp Z       &kp X        &kp C       &kp V      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1   &kp K        &kp M  &mt RIGHT_COMMAND COMMA  &mt RIGHT_CONTROL DOT  &mt LEFT_ALT SQT
-&kp K_UNDO  &kp K_PASTE  &kp K_COPY  &lt 1 TAB  &mt LSHFT DELETE  &lt 7 SPACE         &lt 3 BACKSPACE  &lt 6 ENTER                                                         &kp ESCAPE
+&kp Q      &kp W      &kp F      &kp P      &kp G                                                  &kp J      &kp L  &kp U                    &kp Y                  &kp QUESTION
+&kp A      &kp R      &kp S      &kp T      &kp D             &mkp LCLK           &kp MINUS        &kp H      &kp N  &kp E                    &kp I                  &kp O
+&kp Z      &kp X      &kp C      &kp V      &kp B             &kp LANGUAGE_2      &kp LANGUAGE_1   &kp K      &kp M  &mt RIGHT_COMMAND COMMA  &mt RIGHT_CONTROL DOT  &mt LEFT_ALT SQT
+&kp LG(Z)  &kp LG(V)  &kp LG(C)  &lt 1 TAB  &mt LSHFT DELETE  &lt 7 SPACE         &lt 3 BACKSPACE  &kt ENTER                                                         &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
