@@ -39,9 +39,14 @@
             key-positions = <27 16>;
         };
 
-        test {
+        Exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <18 13>;
+        };
+
+        All_Delete {
+            bindings = <&kp LG(BACKSPACE)>;
+            key-positions = <40 18>;
         };
     };
 
