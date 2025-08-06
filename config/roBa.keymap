@@ -48,6 +48,11 @@
             bindings = <&kp LG(BACKSPACE)>;
             key-positions = <40 18>;
         };
+
+        Cmd+Enter {
+            bindings = <&kp LG(ENTER)>;
+            key-positions = <41 18>;
+        };
     };
 
     macros {
