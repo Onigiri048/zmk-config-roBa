@@ -50,7 +50,7 @@
         };
 
         Cmd+Enter {
-            bindings = <&kp LG(ENTER)>;
+            bindings = <&kp LS(ENTER)>;
             key-positions = <41 18>;
         };
     };
