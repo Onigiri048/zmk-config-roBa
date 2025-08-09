@@ -49,9 +49,14 @@
             key-positions = <40 18>;
         };
 
-        Cmd+Enter {
+        Sft+Enter {
             bindings = <&kp LS(ENTER)>;
             key-positions = <41 18>;
+        };
+
+        Cmd_Enter {
+            bindings = <&kp LG(ENTER)>;
+            key-positions = <41 13>;
         };
     };
 
