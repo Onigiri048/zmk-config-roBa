@@ -124,9 +124,9 @@
 
         SYMBOLS {
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)                            &kp PLUS        &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&kp SEMICOLON     &kp COLON         &kp SQT           &kp DOUBLE_QUOTES  &kp GRAVE   &trans      &kp ASTERISK  &kp MINUS       &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)        &kp LS(N9)         &kp TILDE   &trans      &kp SLASH     &kp UNDERSCORE  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)   &kp LS(N5)                            &kp PLUS        &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp SEMICOLON     &kp COLON         &kp SQT           &kp DOUBLE_QUOTES  &kp GRAVE   &trans      &kp ASTERISK  &kp MINUS       &kp SLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL
+&kp LS(NUMBER_6)  &kp LS(N7)        &kp LS(N8)        &kp LS(N9)         &kp TILDE   &trans      &kp SLASH     &kp UNDERSCORE  &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
 &trans            &trans            &trans            &trans             &trans      &trans      &trans        &trans                                                                      &trans
             >;
         };
