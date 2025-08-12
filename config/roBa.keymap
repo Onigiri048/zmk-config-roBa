@@ -142,8 +142,8 @@
 
         CONTROL {
             bindings = <
-&trans  &kp LEFT_CONTROL  &trans  &kp LA(LEFT_ARROW)  &kp LS(RIGHT_ARROW)                        &kp HOME            &kp LA(A)           &kp UP_ARROW      &kp LC(E)            &kp END
-&trans  &kp LSHFT         &trans  &mkp MB1            &mkp MB2             &mkp MB3      &trans  &kp LEFT_ARROW      &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &trans
+&trans  &kp LEFT_CONTROL  &trans  &kp LA(LEFT_ARROW)  &kp LS(RIGHT_ARROW)                        &trans              &kp LA(A)           &kp UP_ARROW      &kp LC(E)            &trans
+&trans  &kp LSHFT         &trans  &mkp MB1            &mkp MB2             &mkp MB3      &trans  &kp HOME            &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp END
 &trans  &kp LEFT_COMMAND  &trans  &mkp MB4            &mkp MB5             &mkp MB3      &trans  &kp LC(LEFT_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans
 &trans  &trans            &trans  &trans              &trans               &trans        &trans  &trans                                                                         &trans
             >;
