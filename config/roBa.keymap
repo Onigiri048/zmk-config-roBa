@@ -58,6 +58,11 @@
             bindings = <&kp LG(ENTER)>;
             key-positions = <41 13>;
         };
+
+        r_clk {
+            bindings = <&mkp RCLK>;
+            key-positions = <15 39>;
+        };
     };
 
     macros {
