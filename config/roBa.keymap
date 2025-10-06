@@ -59,7 +59,7 @@
             key-positions = <41 13>;
         };
 
-        r_clk {
+        rclk {
             bindings = <&mkp RCLK>;
             key-positions = <15 39>;
         };
