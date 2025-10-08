@@ -118,10 +118,10 @@
 
         TYPING {
             bindings = <
-&kp Q      &kp W      &kp F      &kp P      &kp G                                                  &kp J                   &kp L  &kp U                   &kp Y             &kp ESCAPE
-&kp A      &kp R      &kp S      &kp T      &kp D         &mkp LCLK           &kp MINUS            &kp H                   &kp N  &kp E                   &kp I             &kp O
-&kp Z      &kp X      &kp C      &kp V      &kp B         &kp LANGUAGE_2      &kp LANGUAGE_1       &kp K                   &kp M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT DOT  &kp SQT
-&kp LG(Z)  &kp LG(V)  &kp LG(C)  &lt 7 TAB  &lt 1 DELETE  &lt 3 SPACE         &mt RSHFT BACKSPACE  &mt LEFT_COMMAND ENTER                                                   &kp QUESTION
+&kp Q            &kp W      &kp F        &kp P      &kp G                                                  &kp J                   &kp L  &kp U                   &kp Y             &kp ESCAPE
+&kp A            &kp R      &kp S        &kp T      &kp D         &mkp LCLK           &kp MINUS            &kp H                   &kp N  &kp E                   &kp I             &kp O
+&kp Z            &kp X      &kp C        &kp V      &kp B         &kp LANGUAGE_2      &kp LANGUAGE_1       &kp K                   &kp M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT DOT  &kp SQT
+&kp LC(LS(TAB))  &kp LG(V)  &kp LC(TAB)  &lt 7 TAB  &lt 1 DELETE  &lt 3 SPACE         &mt RSHFT BACKSPACE  &mt LEFT_COMMAND ENTER                                                   &kp QUESTION
             >;
 
             sensor-bindings = <&scroll_up_down>;
