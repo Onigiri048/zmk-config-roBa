@@ -60,7 +60,7 @@
         };
 
         rclk {
-            bindings = <&mkp RCLK>;
+            bindings = <&mkp MB2>;
             key-positions = <15 39>;
         };
     };
@@ -183,12 +183,12 @@
             >;
         };
 
-        NUM {
+        NUM_MOUSE {
             bindings = <
-&trans    &trans  &trans  &trans  &trans                            &kp PLUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL
-&mkp MB5  &trans  &trans  &trans  &trans  &trans      &kp ASTERISK  &kp MINUS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
-&trans    &trans  &trans  &trans  &trans  &trans      &kp SLASH     &kp UNDERSCORE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERCENT
-&trans    &trans  &trans  &trans  &trans  &trans      &trans        &trans                                                             &trans
+&trans    &trans    &trans    &trans    &trans                            &kp PLUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL
+&mkp MB3  &mkp MB4  &mkp MB2  &mkp MB5  &trans  &trans      &kp ASTERISK  &kp MINUS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
+&trans    &trans    &trans    &trans    &trans  &trans      &kp SLASH     &kp UNDERSCORE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERCENT
+&trans    &trans    &trans    &trans    &trans  &trans      &trans        &trans                                                             &trans
             >;
         };
     };
