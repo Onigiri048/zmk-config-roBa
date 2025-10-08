@@ -186,7 +186,7 @@
         NUM_MOUSE {
             bindings = <
 &trans     &trans    &trans     &trans    &trans                              &kp PLUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EQUAL
-&kp LC(E)  &mkp MB4  &kp LC(A)  &mkp MB5  &mkp MB3  &trans      &kp ASTERISK  &kp MINUS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
+&kp LC(A)  &mkp MB4  &kp LC(E)  &mkp MB5  &mkp MB3  &trans      &kp ASTERISK  &kp MINUS       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_NUMBER_0
 &trans     &trans    &trans     &trans    &trans    &trans      &kp SLASH     &kp UNDERSCORE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERCENT
 &trans     &trans    &trans     &trans    &trans    &trans      &trans        &trans                                                             &trans
             >;
