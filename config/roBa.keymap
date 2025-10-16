@@ -13,7 +13,6 @@
     scroll-layers = <5>;
 
 // ⭐ この行を追加して、X軸（左右）のスクロール方向を反転させます
-    zmk,pointer-scroll-invert-x;
 
     // arrows {
     //     layers = <3>;
