@@ -12,8 +12,6 @@
     automouse-layer = <4>;
     scroll-layers = <5>;
 
-// ⭐ この行を追加して、X軸（左右）のスクロール方向を反転させます
-
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -113,6 +111,12 @@
     sensor-bindings = <&scroll_up_down>;
 
     behaviors {
+    scroll_rev_x: behavior_pointing_scroll_rev_x {
+                compatible = "zmk,behavior-pointing-scroll";
+                #binding-cells = <0>;
+                direction = "x-axis";
+                invert; // <--- これがX軸（左右）を反転させるプロパティです
+            };
     };
 
     keymap {
