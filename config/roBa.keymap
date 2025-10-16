@@ -111,12 +111,12 @@
     sensor-bindings = <&scroll_up_down>;
 
     behaviors {
-    scroll_rev_x: behavior_pointing_scroll_rev_x {
-                compatible = "zmk,behavior-pointing-scroll";
-                #binding-cells = <0>;
-                direction = "x-axis";
-                invert; // <--- これがX軸（左右）を反転させるプロパティです
-            };
+        scroll_rev_x: behavior_pointing_scroll_rev_x {
+            compatible = "zmk,behavior-pointing-scroll";
+            #binding-cells = <0>;
+            direction = "x-axis";
+            invert; // <--- これがX軸（左右）を反転させるプロパティです
+        };
     };
 
     keymap {
@@ -153,10 +153,10 @@
 
         FUNCTION_CONTROL {
             bindings = <
-&trans        &trans        &trans            &trans    &trans                             &trans    &trans          &kp UP_ARROW                       &trans           &trans
-&kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &mkp MB2  &kp LG(LC(F))  &trans      &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW                     &kp RIGHT_ARROW  &kp END
-&kp F14       &kp F15       &mkp MB4          &mkp MB5  &trans         &trans      &trans  &trans    &trans          &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans           &trans
-&trans        &trans        &trans            &trans    &trans         &trans      &trans  &trans                                                                        &trans
+&kp J         &kp L         &kp LESS_THAN     &kp GREATER_THAN  &kp SLASH                          &trans    &trans          &kp UP_ARROW                       &trans           &trans
+&kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &mkp MB2          &kp LG(LC(F))  &trans      &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW                     &kp RIGHT_ARROW  &kp END
+&kp F14       &kp F15       &mkp MB4          &mkp MB5          &trans         &trans      &trans  &trans    &trans          &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans           &trans
+&trans        &trans        &trans            &trans            &trans         &trans      &trans  &trans                                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
