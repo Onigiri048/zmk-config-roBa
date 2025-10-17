@@ -155,7 +155,7 @@
             bindings = <
 &kp J         &kp L         &kp LESS_THAN     &kp GREATER_THAN  &kp SLASH                          &trans    &trans          &kp UP_ARROW                       &trans           &trans
 &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &mkp MB2          &kp LG(LC(F))  &trans      &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW                     &kp RIGHT_ARROW  &kp END
-&kp F14       &kp F15       &mkp MB4          &mkp MB5          &trans         &trans      &trans  &trans    &trans          &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &trans           &trans
+&kp F14       &kp F15       &mkp MB4          &mkp MB5          &trans         &trans      &trans  &trans    &kp LA(LEFT)    &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp RA(RIGHT)    &trans
 &trans        &trans        &trans            &trans            &trans         &trans      &trans  &trans                                                                        &trans
             >;
 
