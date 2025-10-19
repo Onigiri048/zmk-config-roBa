@@ -124,10 +124,10 @@
 
         TYPING {
             bindings = <
-&kp Q            &kp W          &kp F        &kp P      &kp G                                                  &kp J                   &kp L  &kp U                   &kp Y             &kp ESCAPE
-&kp A            &kp R          &kp S        &kp T      &kp D         &mkp LCLK           &kp MINUS            &kp H                   &kp N  &kp E                   &kp I             &kp O
-&kp Z            &kp X          &kp C        &kp V      &kp B         &kp LANGUAGE_2      &kp LANGUAGE_1       &kp K                   &kp M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT DOT  &kp SQT
-&kp LC(LS(TAB))  &kp LS(LG(T))  &kp LC(TAB)  &lt 5 TAB  &lt 7 DELETE  &lt 3 SPACE         &mt RSHFT BACKSPACE  &mt LEFT_COMMAND ENTER                                                   &kp QUESTION
+&kp Q   &kp W   &kp F   &kp P      &kp G                                                  &kp J                   &kp L  &kp U                   &kp Y             &kp ESCAPE
+&kp A   &kp R   &kp S   &kp T      &kp D         &mkp LCLK           &kp MINUS            &kp H                   &kp N  &kp E                   &kp I             &kp O
+&kp Z   &kp X   &kp C   &kp V      &kp B         &kp LANGUAGE_2      &kp LANGUAGE_1       &kp K                   &kp M  &mt LEFT_CONTROL COMMA  &mt LEFT_ALT DOT  &kp SQT
+&trans  &trans  &trans  &lt 5 TAB  &lt 7 DELETE  &lt 3 SPACE         &mt RSHFT BACKSPACE  &mt LEFT_COMMAND ENTER                                                   &kp QUESTION
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -153,10 +153,10 @@
 
         FUNCTION_CONTROL {
             bindings = <
-&kp J         &kp L         &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH                             &trans    &trans          &kp UP_ARROW                       &trans           &trans
-&kp C_VOL_DN  &kp C_VOL_UP  &mkp MB4       &mkp MB5          &kp C_PLAY_PAUSE  &trans      &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW                     &kp RIGHT_ARROW  &kp END
-&kp F14       &kp F15       &kp LG(LC(F))  &mkp MB2          &kp LC(LS(U))     &trans      &trans  &trans    &kp LA(LEFT)    &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp RA(RIGHT)    &trans
-&trans        &trans        &trans         &trans            &trans            &trans      &trans  &trans                                                                        &trans
+&kp J         &kp L         &kp LS(LC(LESS_THAN))  &kp LC(LS(TAB))  &kp SLASH                             &trans    &trans          &kp UP_ARROW                       &trans           &trans
+&kp C_VOL_DN  &kp C_VOL_UP  &mkp MB4               &mkp MB5         &kp C_PLAY_PAUSE  &trans      &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW                     &kp RIGHT_ARROW  &kp END
+&kp F14       &kp F15       &kp LG(LC(F))          &mkp MB2         &kp LC(LS(U))     &trans      &trans  &trans    &kp LA(LEFT)    &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp RA(RIGHT)    &trans
+&trans        &trans        &trans                 &trans           &trans            &trans      &trans  &trans                                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
