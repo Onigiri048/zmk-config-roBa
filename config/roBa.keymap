@@ -153,10 +153,10 @@
 
         FUNCTION_CONTROL {
             bindings = <
-&kp LS(LG(V))  &kp LS(LG(H))  &kp LS(LC(TAB))  &kp LC(TAB)  &kp LG(LS(N))                                &trans              &kp LA(LS(LEFT_ARROW))  &kp UP_ARROW                       &kp LS(LA(RIGHT))  &trans
-&kp C_VOL_DN   &kp C_VOL_UP   &mkp MB4         &mkp MB5     &kp C_PLAY_PAUSE  &trans             &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW          &kp DOWN_ARROW                     &kp RIGHT_ARROW    &kp LG(RIGHT)
-&kp F14        &kp F15        &kp LG(LC(F))    &mkp MB2     &kp LS(LG(U))     &kp LG(LS(T))      &trans  &trans              &kp LA(LEFT)            &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp RA(RIGHT)      &trans
-&trans         &trans         &trans           &trans       &trans            &trans             &trans  &trans                                                                                            &trans
+&trans        &kp LS(LG(H))  &kp LS(LC(TAB))  &kp LC(TAB)  &kp LG(LS(N))                                &trans              &kp LA(LS(LEFT_ARROW))  &kp UP_ARROW                       &kp LS(LA(RIGHT))  &trans
+&kp C_VOL_DN  &kp C_VOL_UP   &mkp MB4         &mkp MB5     &kp C_PLAY_PAUSE  &trans             &trans  &kp LG(LEFT_ARROW)  &kp LEFT_ARROW          &kp DOWN_ARROW                     &kp RIGHT_ARROW    &kp LG(RIGHT)
+&kp F14       &kp F15        &kp LG(LC(F))    &mkp MB2     &kp LS(LG(U))     &kp LG(LS(T))      &trans  &trans              &kp LA(LEFT)            &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp RA(RIGHT)      &trans
+&trans        &trans         &trans           &trans       &trans            &trans             &trans  &trans                                                                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
