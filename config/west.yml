@@ -11,10 +11,15 @@ manifest:
       revision: main
       import: app/west.yml
 
-    - name: zmk-pmw3610-driver
-      remote: sayu-hub
-      revision: main
-      path: zmk-pmw3610-driver
+ remotes:
+  - name: sho-pmw
+    url-base: https://github.com/Onigiri048
+
+projects:
+  - name: zmk-pmw3610-driver-
+    remote: sho-pmw
+    revision: main
+      path: zmk-pmw3610-driver-
 
   self:
     path: config
