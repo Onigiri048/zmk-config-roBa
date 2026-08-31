@@ -63,6 +63,11 @@
             bindings = <&mkp MB2>;
             key-positions = <15 39>;
         };
+
+        test {
+            bindings = <&kp LA(RIGHT_ARROW)>;
+            key-positions = <39 9>;
+        };
     };
 
     macros {
